@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/calcularDigitos/calcularDigitos.iml" filepath="$PROJECT_DIR$/calcularDigitos/calcularDigitos.iml" />
       <module fileurl="file://$PROJECT_DIR$/contarCeros/contarCeros.iml" filepath="$PROJECT_DIR$/contarCeros/contarCeros.iml" />
       <module fileurl="file://$PROJECT_DIR$/fibonachi1/fibonachi1.iml" filepath="$PROJECT_DIR$/fibonachi1/fibonachi1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numeroApariciones/numeroApariciones.iml" filepath="$PROJECT_DIR$/numeroApariciones/numeroApariciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numeroMenorArreglo/numeroMenorArreglo.iml" filepath="$PROJECT_DIR$/numeroMenorArreglo/numeroMenorArreglo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumaDeCifras/sumaDeCifras.iml" filepath="$PROJECT_DIR$/sumaDeCifras/sumaDeCifras.iml" />
     </modules>
   </component>
 </project>
