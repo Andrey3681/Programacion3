@@ -3,21 +3,21 @@ import java.util.Arrays;
 
 public class Main {
 
-    public static int buscarElemento(ArrayList<Integer>arreglo,int fin, int elemen){
-        if(fin>=arreglo.size()-1){
-            if(arreglo.get(fin)==elemen){
+    public static int buscarElemento(ArrayList<Integer>arreglo,int inicio, int elemen){
+        if(inicio>=arreglo.size()-1){
+            if(arreglo.get(inicio)==elemen){
                 return 1;
             }
             else {
                 return 0;
             }
         }
-        else if(arreglo.get(fin)==elemen){
-            return buscarElemento(arreglo,fin+1,elemen)+1;
+        else if(arreglo.get(inicio)==elemen){
+            return buscarElemento(arreglo,inicio+1,elemen)+1;
 
         }
         else {
-            return buscarElemento(arreglo,fin+1,elemen);
+            return buscarElemento(arreglo,inicio+1,elemen);
         }
 
     }
