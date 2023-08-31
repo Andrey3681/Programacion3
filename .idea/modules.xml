@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/numeroMenorArreglo/numeroMenorArreglo.iml" filepath="$PROJECT_DIR$/numeroMenorArreglo/numeroMenorArreglo.iml" />
       <module fileurl="file://$PROJECT_DIR$/recorrerMatriz/recorrerMatriz.iml" filepath="$PROJECT_DIR$/recorrerMatriz/recorrerMatriz.iml" />
       <module fileurl="file://$PROJECT_DIR$/sumaDeCifras/sumaDeCifras.iml" filepath="$PROJECT_DIR$/sumaDeCifras/sumaDeCifras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumaDiagonalMatriz/sumaDiagonalMatriz.iml" filepath="$PROJECT_DIR$/sumaDiagonalMatriz/sumaDiagonalMatriz.iml" />
     </modules>
   </component>
 </project>
