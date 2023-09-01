@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Programacion3.iml" filepath="$PROJECT_DIR$/.idea/Programacion3.iml" />
       <module fileurl="file://$PROJECT_DIR$/calcularDigitos/calcularDigitos.iml" filepath="$PROJECT_DIR$/calcularDigitos/calcularDigitos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calcularPotencia/calcularPotencia.iml" filepath="$PROJECT_DIR$/calcularPotencia/calcularPotencia.iml" />
       <module fileurl="file://$PROJECT_DIR$/contarCeros/contarCeros.iml" filepath="$PROJECT_DIR$/contarCeros/contarCeros.iml" />
       <module fileurl="file://$PROJECT_DIR$/fibonachi1/fibonachi1.iml" filepath="$PROJECT_DIR$/fibonachi1/fibonachi1.iml" />
       <module fileurl="file://$PROJECT_DIR$/invertirUnString/invertirUnString.iml" filepath="$PROJECT_DIR$/invertirUnString/invertirUnString.iml" />

@@ -15,7 +15,7 @@ public class Main {
         }
         else {
             if (j == 0) {
-                return sumarMatrizInversa(matriz, i + 1, matriz[0].length) + matriz[i][j];
+                return sumarMatrizInversa(matriz, i + 1, matriz[0].length-1) + matriz[i][j];
 
             } else {
                 return sumarMatrizInversa(matriz, i, j - 1) + matriz[i][j];
