@@ -46,13 +46,13 @@ public class Main {
         }
     }
 
-    public static int sumarDi(int [][] matriz, int i, int j){
+    public static int sumarDiagonalInver(int [][] matriz, int i, int j){
         if(i==j){
             if(i==0){
                 return matriz[i][j];
             }
             else {
-                return sumarDi(matriz,i-1,j-1)+matriz[i][j];
+                return sumarDiagonalInver(matriz,i-1,j-1)+matriz[i][j];
             }
 
         }else {
@@ -60,6 +60,17 @@ public class Main {
         }
 
     }
+
+    public static int subDiagonal(int [][] matriz, int i, int j){
+        if(i==matriz.length-1){
+            return matriz[i][j];
+        }else {
+            return subDiagonal(matriz,i+1,j-1)+matriz[i][j];
+        }
     }
+    }
+
+
+
 
 

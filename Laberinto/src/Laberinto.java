@@ -36,6 +36,12 @@ public class Laberinto{
 
     private boolean paso(int x, int y)
     {
+        if(y>laberinto[0].length-1){
+            return false;
+        }
+        if(x<0){
+            return false;
+        }
 
         if (laberinto[x][y]=='X'){ // si hemos llegado a X quiere decir que hemos encontrado solución
             return true; // luego, el algoritmo termina
@@ -50,8 +56,9 @@ public class Laberinto{
         // caso intermedio, por lo tanto, que empezamos a recorrer o todavía no hemos llegado a nada
         laberinto[x][y]='*'; // marcamos la posición como visitada (si es la primera, en las coordenadas x e y
 
-        boolean result; // se coloca S de START)
+        boolean result;// se coloca S de START)
 
+        if(y== laberinto[0].length-1){}
         result=paso(x, y+1); // intentamos ir hacia la DERECHA. Primera llamada recursiva
         if (result)return true; // si el resultado es el final, entonces el algoritmo termina
 
