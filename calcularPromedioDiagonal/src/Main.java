@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int [][] matriz= {{1,3,4,0},{3,4,5,0},{2,1,1,0}};
-        System.out.println(sumaDiagonal(matriz,0,0));
+        int [][] matriz= {{1,3,4},{3,4,5},{2,1,1}};
+        System.out.println(calcularPromedio(matriz));
+
     }
 
-
-
+    public static float calcularPromedio(int [][] matriz){
+        return sumaDiagonal(matriz,0,0)/matriz.length;
+    }
     public static int sumaDiagonal(int [][] matriz, int i , int j) {
         //verifico que sea cuadrada
         if(matriz.length-1==matriz[0].length-1){
@@ -45,21 +47,4 @@ public class Main {
             return 0;
         }
     }
-
-    public static int sumarDi(int [][] matriz, int i, int j){
-        if(i==j){
-            if(i==0){
-                return matriz[i][j];
-            }
-            else {
-                return sumarDi(matriz,i-1,j-1)+matriz[i][j];
-            }
-
-        }else {
-            return 0;
-        }
-
-    }
-    }
-
-
+}

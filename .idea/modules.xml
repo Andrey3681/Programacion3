@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Laberinto/Laberinto.iml" filepath="$PROJECT_DIR$/Laberinto/Laberinto.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Programacion3.iml" filepath="$PROJECT_DIR$/.idea/Programacion3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buscarUnNumeroVector/buscarUnNumeroVector.iml" filepath="$PROJECT_DIR$/buscarUnNumeroVector/buscarUnNumeroVector.iml" />
       <module fileurl="file://$PROJECT_DIR$/calcularDigitos/calcularDigitos.iml" filepath="$PROJECT_DIR$/calcularDigitos/calcularDigitos.iml" />
       <module fileurl="file://$PROJECT_DIR$/calcularPotencia/calcularPotencia.iml" filepath="$PROJECT_DIR$/calcularPotencia/calcularPotencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calcularPromedioDiagonal/calcularPromedioDiagonal.iml" filepath="$PROJECT_DIR$/calcularPromedioDiagonal/calcularPromedioDiagonal.iml" />
       <module fileurl="file://$PROJECT_DIR$/contarCeros/contarCeros.iml" filepath="$PROJECT_DIR$/contarCeros/contarCeros.iml" />
       <module fileurl="file://$PROJECT_DIR$/fibonachi1/fibonachi1.iml" filepath="$PROJECT_DIR$/fibonachi1/fibonachi1.iml" />
       <module fileurl="file://$PROJECT_DIR$/invertirUnString/invertirUnString.iml" filepath="$PROJECT_DIR$/invertirUnString/invertirUnString.iml" />
@@ -14,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/sumaDeCifras/sumaDeCifras.iml" filepath="$PROJECT_DIR$/sumaDeCifras/sumaDeCifras.iml" />
       <module fileurl="file://$PROJECT_DIR$/sumaDiagonalMatriz/sumaDiagonalMatriz.iml" filepath="$PROJECT_DIR$/sumaDiagonalMatriz/sumaDiagonalMatriz.iml" />
       <module fileurl="file://$PROJECT_DIR$/sumaMatrizColumnaInversa/sumaMatrizColumnaInversa.iml" filepath="$PROJECT_DIR$/sumaMatrizColumnaInversa/sumaMatrizColumnaInversa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumaMatrizColumnaInversa1/sumaMatrizColumnaInversa1.iml" filepath="$PROJECT_DIR$/sumaMatrizColumnaInversa1/sumaMatrizColumnaInversa1.iml" />
     </modules>
   </component>
 </project>
